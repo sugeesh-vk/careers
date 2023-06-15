@@ -25,4 +25,4 @@ Route::get('/searchjobs','\App\Http\Controllers\Controller@jobs');
 Route::get('/viewapplicant/{id}','\App\Http\Controllers\Controller@jobsview');
 Route::get('/applicantdetete/{id}','\App\Http\Controllers\Controller@deleteapplicant');
 
-// Route::post('/careerssave','\App\Http\Controllers\Admin\ApplicantsControllerr@save');
+Route::post('/careerssave','\App\Http\Controllers\Admin\AdminController@save');
